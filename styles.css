@@ -5,34 +5,50 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.pg {
+    background-color: black;
+}
+
 .post {
     width: 325px;
     background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: 0px solid #ddd;
+    border-radius: 0px;
     margin: 50px auto;
     overflow: hidden;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1)
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .textoinicial {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    
+    padding: 2px;
     border-bottom: 1px solid #ddd;
 }
 
 .usuario {
     display: flex;
-    font-size: 20px;
-    color: #e34f26;
-    justify-content: center;
+    font-size: 12px;
+    color: (0, 0, 0, 0.1);
+    justify-content: space-between;
     align-items: center;
+    padding:8px;
 }
 
-.usuario-icon{
-    margin-right: 10px;
+.opciones{
+    align-items: right;
+    padding-top: 6px;
+    padding-right: 4px;
+    
+}
+
+.usuario-icon {
+    font-size: 25px;
+    margin-right: 8px;
+    
 }
 
 .username {
@@ -41,13 +57,13 @@
 
 .locacion {
     font-size: 12px;
-    color: gray
+    color: (0, 0, 0, 0.1);
 }
 
 .post-img img {
     width: 100%;
     height: 300px;
-    object-fit: grid
+    object-fit: fill;
 }
 
 .post-icons {
