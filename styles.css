@@ -40,8 +40,9 @@
 
 .opciones{
     align-items: right;
-    padding-top: 6px;
+    padding-top: 10px;
     padding-right: 4px;
+    font-size: 12px;
     
 }
 
@@ -82,11 +83,11 @@
 }
 
 .likes {
-    font-size: 14px;
+    font-size: 11px;
     margin-bottom: 5px;
 }
 
 .comentario {
-    font-size: 14px;
+    font-size: 11px;
     color: black
 }
